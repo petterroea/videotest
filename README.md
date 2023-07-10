@@ -49,6 +49,8 @@ The manifest file looks like this:
 }
 ```
 
+Create a lobby markdown file. This file is rendered when the user first visits the URL. the `"explanation"` field in the manifest determines the filename. It should be in the same directory as the manifest itself.
+
 Easiest way to deploy is with a `docker-compose` file like this:
 
 ```
